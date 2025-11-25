@@ -1,0 +1,56 @@
+{
+  "job_preferences": {
+    "employment_type": {
+      "full_time": 100,
+      "part_time": 30,
+      "contract": 50,
+      "temp": 20
+    },
+    "work_arrangement": {
+      "remote": 100,
+      "hybrid": 80,
+      "onsite": 60
+    },
+    "location_preferences": {
+      "preferred_states": ["AZ", "CA", "TX", "NV"],
+      "willing_to_relocate": true,
+      "relocation_assistance_required": false,
+      "max_commute_minutes": 45
+    },
+    "compensation": {
+      "minimum_salary": 70000,
+      "target_salary": 85000,
+      "ideal_salary": 100000,
+      "salary_importance": 80
+    },
+    "responsibility_level": {
+      "individual_contributor": 50,
+      "team_lead": 80,
+      "manager": 100,
+      "senior_manager": 90,
+      "director": 70,
+      "executive": 40
+    },
+    "company_preferences": {
+      "startup": 70,
+      "small_business": 80,
+      "mid_size": 90,
+      "enterprise": 85,
+      "fortune_500": 75
+    },
+    "work_style": {
+      "travel_tolerance_percent": 25,
+      "overtime_tolerance": 70,
+      "shift_work_acceptable": false,
+      "weekend_work_acceptable": false
+    },
+    "career_goals": {
+      "growth_opportunity_importance": 90,
+      "learning_development_importance": 85,
+      "work_life_balance_importance": 80,
+      "job_security_importance": 70,
+      "innovation_importance": 75,
+      "impact_importance": 85
+    }
+  }
+}

@@ -1,0 +1,8 @@
+Company: 3M
+Position: Manufacturing Engineer
+Top JD Keywords (first 20):
+test, benefits, work, skills, position, procedures, new, employment, not, job, manufacturing, collaborate, role, product, equipment, include, pay, information, com, range
+Matched Keywords:
+collaborate, com, equipment, job, manufacturing, new, procedures, product, test, work
+Missing Keywords:
+benefits, skills, position, employment, not, role, include, pay, information, range

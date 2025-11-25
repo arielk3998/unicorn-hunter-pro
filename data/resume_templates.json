@@ -1,0 +1,189 @@
+{
+  "templates": {
+    "supply_chain_engineer": {
+      "name": "Supply Chain Engineer",
+      "description": "Manufacturing/supply chain engineering roles",
+      "skill_emphasis": [
+        "NPI Integration & Scale-Up",
+        "Process Optimization",
+        "Lean Six Sigma",
+        "CAPEX Planning",
+        "Cross-Functional Collaboration"
+      ],
+      "summary_template": "Results-driven Supply Chain Engineer with {years}+ years specializing in {emphasis_areas}. Proven track record delivering measurable improvements in manufacturing efficiency, quality, and cost reduction across aerospace and industrial sectors.",
+      "achievement_keywords": [
+        "throughput",
+        "efficiency",
+        "cost reduction",
+        "quality improvement",
+        "NPI",
+        "scale-up",
+        "CAPEX"
+      ],
+      "bullet_focus": "manufacturing_excellence"
+    },
+    "technical_services_manager": {
+      "name": "Technical Services Manager",
+      "description": "Technical leadership and service management roles",
+      "skill_emphasis": [
+        "Technical Team Leadership",
+        "Service Operations Management",
+        "Customer Relationship Management",
+        "Technical Problem Solving",
+        "Process Improvement"
+      ],
+      "summary_template": "Strategic Technical Services Manager with {years}+ years leading high-performing teams in {emphasis_areas}. Expert in optimizing service delivery, enhancing customer satisfaction, and driving operational excellence.",
+      "achievement_keywords": [
+        "team leadership",
+        "customer satisfaction",
+        "operational efficiency",
+        "service delivery",
+        "technical expertise",
+        "process improvement"
+      ],
+      "bullet_focus": "leadership_operations"
+    },
+    "process_engineer": {
+      "name": "Process Engineer",
+      "description": "Process improvement and engineering roles",
+      "skill_emphasis": [
+        "Process Design & Optimization",
+        "Lean Six Sigma",
+        "Root Cause Analysis",
+        "SOP Development",
+        "Manufacturing Systems"
+      ],
+      "summary_template": "Innovative Process Engineer with {years}+ years expertise in {emphasis_areas}. Demonstrated success implementing data-driven solutions that enhance productivity, reduce waste, and improve quality metrics.",
+      "achievement_keywords": [
+        "process improvement",
+        "lean",
+        "six sigma",
+        "waste reduction",
+        "cycle time",
+        "yield improvement",
+        "automation"
+      ],
+      "bullet_focus": "process_optimization"
+    },
+    "quality_engineer": {
+      "name": "Quality Engineer",
+      "description": "Quality assurance and engineering roles",
+      "skill_emphasis": [
+        "Quality Management Systems",
+        "Root Cause Analysis",
+        "Regulatory Compliance",
+        "Statistical Process Control",
+        "Continuous Improvement"
+      ],
+      "summary_template": "Detail-oriented Quality Engineer with {years}+ years experience in {emphasis_areas}. Proven ability to reduce defects, ensure compliance, and implement robust quality systems across complex manufacturing environments.",
+      "achievement_keywords": [
+        "defect reduction",
+        "compliance",
+        "quality improvement",
+        "customer complaints",
+        "cost of poor quality",
+        "audit",
+        "corrective action"
+      ],
+      "bullet_focus": "quality_compliance"
+    },
+    "operations_manager": {
+      "name": "Operations Manager",
+      "description": "Operations and production management roles",
+      "skill_emphasis": [
+        "Operations Management",
+        "Production Planning",
+        "Team Leadership",
+        "Budget Management",
+        "Performance Optimization"
+      ],
+      "summary_template": "Results-oriented Operations Manager with {years}+ years driving operational excellence in {emphasis_areas}. Skilled in leading cross-functional teams, optimizing resources, and delivering against aggressive KPIs.",
+      "achievement_keywords": [
+        "operations",
+        "production",
+        "team management",
+        "budget",
+        "KPI",
+        "efficiency",
+        "cost savings"
+      ],
+      "bullet_focus": "leadership_operations"
+    },
+    "manufacturing_engineer": {
+      "name": "Manufacturing Engineer",
+      "description": "Manufacturing engineering and production roles",
+      "skill_emphasis": [
+        "Manufacturing Process Engineering",
+        "Equipment Design & Validation",
+        "Production Support",
+        "Yield Improvement",
+        "Cost Reduction Initiatives"
+      ],
+      "summary_template": "Versatile Manufacturing Engineer with {years}+ years expertise in {emphasis_areas}. Track record of implementing innovative solutions that increase production capacity, improve quality, and reduce manufacturing costs.",
+      "achievement_keywords": [
+        "manufacturing",
+        "production",
+        "yield",
+        "equipment",
+        "throughput",
+        "cost reduction",
+        "process validation"
+      ],
+      "bullet_focus": "manufacturing_excellence"
+    }
+  },
+  "bullet_focus_mappings": {
+    "manufacturing_excellence": {
+      "prioritize": [
+        "NPI",
+        "scale-up",
+        "throughput",
+        "CAPEX",
+        "equipment",
+        "production",
+        "manufacturing"
+      ],
+      "highlight_metrics": true
+    },
+    "leadership_operations": {
+      "prioritize": [
+        "team",
+        "leadership",
+        "management",
+        "operations",
+        "service",
+        "customer"
+      ],
+      "highlight_metrics": true
+    },
+    "process_optimization": {
+      "prioritize": [
+        "lean",
+        "six sigma",
+        "process",
+        "optimization",
+        "efficiency",
+        "waste",
+        "cycle time"
+      ],
+      "highlight_metrics": true
+    },
+    "quality_compliance": {
+      "prioritize": [
+        "quality",
+        "compliance",
+        "defect",
+        "audit",
+        "regulatory",
+        "cost of poor quality",
+        "customer complaint"
+      ],
+      "highlight_metrics": true
+    }
+  },
+  "usage_instructions": {
+    "how_to_use": "When applying to a job, select the template that best matches the role type. The automation system will emphasize relevant skills and tailor the resume summary accordingly.",
+    "auto_detection": "The system can auto-detect the best template by analyzing job title and description keywords.",
+    "customization": "Templates can be mixed - e.g., a 'Supply Chain Quality Manager' role might blend supply_chain_engineer + quality_engineer templates."
+  }
+}

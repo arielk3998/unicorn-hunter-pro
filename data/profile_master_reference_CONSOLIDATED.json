@@ -1,0 +1,297 @@
+{
+  "master_skills_list": {
+    "soft_skills": [
+      "Analytical Thinking",
+      "Attention to Detail",
+      "Communication",
+      "Coordination Across Departments",
+      "Critical Thinking",
+      "Cross-Functional Collaboration",
+      "Customer Support",
+      "Effective Communication",
+      "Leadership Development",
+      "Problem-Solving",
+      "Risk Management",
+      "Scheduling",
+      "Stakeholder Communication",
+      "Task Management",
+      "Team Leadership",
+      "Time Management",
+      "Training & Mentoring",
+      "Troubleshooting"
+    ],
+    "technical_skills": [
+      "Aircraft Subsystem Assembly",
+      "Algorithmic Solutions for Workflow Streamlining",
+      "Assembly Procedures",
+      "Automation",
+      "Automation & Workflow Optimization",
+      "Avionics Equipment",
+      "CAPEX Planning & Equipment Design Support",
+      "Continuous Improvement",
+      "Cost of Poor Quality Reduction",
+      "Customer Complaint Resolution",
+      "Data Analysis",
+      "Data Analysis & Reporting",
+      "Data Analysis for Maintenance Support",
+      "Diagnostic Equipment",
+      "Documentation Refinement",
+      "Documentation Standardization",
+      "Electrical Systems",
+      "Engine Components",
+      "Engineering Documentation Review and Revision",
+      "Equipment Design",
+      "Equipment Validation & Testing",
+      "Field-Simulation Testing",
+      "Flight Controls",
+      "Gap Analysis",
+      "Hardware Inspection",
+      "Hydraulics",
+      "Maintenance Checks and Inspections",
+      "Manufacturing",
+      "Manufacturing Process Design",
+      "New Technology Adoption",
+      "NPI Integration & Scale-Up",
+      "Process Improvement",
+      "Process Mapping",
+      "Process Optimization",
+      "Process Standardization (SOPs)",
+      "Production Throughput Enhancement",
+      "Project Management",
+      "Quality Assurance",
+      "Quality Assurance (QA) for Engineering Products",
+      "Quality Assurance Protocols",
+      "Regulatory Compliance (Aerospace)",
+      "Root Cause Analysis",
+      "Rotor Systems",
+      "Safety Processes",
+      "SOP Development",
+      "Space Flight Valve Production",
+      "Specialized Tooling Design",
+      "Streamlining Assembly Procedures",
+      "Subject Matter Expertise (Assembly/Testing)",
+      "Supply Chain Support",
+      "Technical Documentation",
+      "Technical Documentation Standards",
+      "Technical Training & Mentoring",
+      "Technical Workflow Optimization",
+      "Technical Writing",
+      "Training Modules",
+      "User Manuals",
+      "Value Stream Mapping"
+    ],
+    "industry_specific": [
+      "Aerospace Assembly Engineering",
+      "Apache Helicopter Maintenance",
+      "Aircraft Systems Inspection"
+    ],
+    "leadership_skills": [
+      "Behavioral Observation Process (BOP) Leadership",
+      "Continuous Improvement System (CIS) Leadership",
+      "Cross-Functional Team Collaboration"
+    ]
+  },
+  "master_technologies_list": {
+    "erp_systems": [
+      "Aurora ERP CRM",
+      "Dynamics 365",
+      "ERP Systems"
+    ],
+    "software_tools": [
+      "Data Analysis Tools",
+      "Diagnostic Equipment",
+      "G Suite (Google Workspace)",
+      "Microsoft Office",
+      "Microsoft Office Suite (Advanced)",
+      "Microsoft Office Suite (Expert)",
+      "Mobile Applications",
+      "Software Improvement Solutions",
+      "Technical Documentation Tools"
+    ],
+    "aerospace_equipment": [
+      "AH-64 Apache Attack Helicopters",
+      "Aircraft Systems",
+      "Avionics Equipment",
+      "Engine Components",
+      "Flight Control Actuators",
+      "Gearboxes",
+      "Human-Rated Space Flight Valves",
+      "Hydraulic Systems",
+      "Rotor Systems"
+    ]
+  },
+  "master_methodologies_list": [
+    "Behavioral Observation Process (BOP)",
+    "Continuous Improvement System (CIS)",
+    "Gap Analysis",
+    "Lean Principles",
+    "Lean Six Sigma",
+    "Lean Six Sigma Methodologies",
+    "Process Mapping",
+    "Root Cause Analysis",
+    "Value Stream Mapping"
+  ],
+  "master_competencies_categories": {
+    "manufacturing_excellence": [
+      "Assembly Procedures",
+      "Equipment Validation & Testing",
+      "Manufacturing",
+      "Manufacturing Process Design",
+      "NPI Integration & Scale-Up",
+      "Process Optimization",
+      "Production Throughput Enhancement",
+      "Space Flight Valve Production",
+      "Streamlining Assembly Procedures"
+    ],
+    "quality_and_compliance": [
+      "Cost of Poor Quality Reduction",
+      "Customer Complaint Resolution",
+      "Hardware Inspection",
+      "Quality Assurance",
+      "Quality Assurance (QA) for Engineering Products",
+      "Quality Assurance Protocols",
+      "Regulatory Compliance (Aerospace)",
+      "Technical Documentation Standards"
+    ],
+    "process_engineering": [
+      "Algorithmic Solutions for Workflow Streamlining",
+      "Automation",
+      "Automation & Workflow Optimization",
+      "Lean Six Sigma Methodologies",
+      "Process Standardization (SOPs)",
+      "Root Cause Analysis",
+      "Value Stream Mapping"
+    ],
+    "technical_leadership": [
+      "Cross-Functional Team Collaboration",
+      "Project Management",
+      "Stakeholder Communication",
+      "Subject Matter Expertise (Assembly/Testing)",
+      "Team Leadership",
+      "Technical Training & Mentoring"
+    ],
+    "systems_and_technology": [
+      "CAPEX Planning & Equipment Design Support",
+      "Data Analysis & Reporting",
+      "Dynamics 365",
+      "ERP Systems (Aurora, Dynamics 365)",
+      "Microsoft Office Suite (Advanced)",
+      "New Technology Adoption"
+    ],
+    "technical_documentation": [
+      "Documentation Refinement",
+      "Documentation Standardization",
+      "Engineering Documentation Review and Revision",
+      "SOP Development",
+      "Technical Documentation",
+      "Technical Reports",
+      "Technical Writing",
+      "Training Modules",
+      "User Manuals"
+    ]
+  },
+  "all_unique_achievements_with_metrics": [
+    {
+      "achievement": "Delivered 300% production throughput increase for human-rated aerospace components",
+      "metric": "300%",
+      "category": "Production Efficiency"
+    },
+    {
+      "achievement": "Enhanced hardware testing efficiency by 50%",
+      "metric": "50%",
+      "category": "Testing Efficiency"
+    },
+    {
+      "achievement": "Reduced documentation errors by 20% through ERP migration",
+      "metric": "20%",
+      "category": "Quality Improvement"
+    },
+    {
+      "achievement": "Achieved 95% on-time delivery rate for technical writing team",
+      "metric": "95%",
+      "category": "Team Performance"
+    },
+    {
+      "achievement": "Decreased system downtime by 15%",
+      "metric": "15%",
+      "category": "Operational Efficiency"
+    },
+    {
+      "achievement": "Improved safety compliance by 20%",
+      "metric": "20%",
+      "category": "Safety"
+    },
+    {
+      "achievement": "Achieved zero-defect accuracy through workflow automation",
+      "metric": "0 defects",
+      "category": "Quality Assurance"
+    },
+    {
+      "achievement": "10x reduction in assembly times",
+      "metric": "10x (1000%)",
+      "category": "Manufacturing Efficiency"
+    },
+    {
+      "achievement": "3x drop in bench testing cycles",
+      "metric": "3x (300%)",
+      "category": "Testing Efficiency"
+    }
+  ],
+  "keywords_for_ats": [
+    "3M",
+    "Aerospace",
+    "Apache",
+    "Assembly",
+    "Automation",
+    "Aurora ERP",
+    "Behavioral Observation Process",
+    "BOP",
+    "CAPEX Planning",
+    "CIS",
+    "Compliance",
+    "Continuous Improvement",
+    "Cost of Poor Quality",
+    "Cross-Functional",
+    "Customer Complaint Resolution",
+    "Data Analysis",
+    "Documentation",
+    "Dynamics 365",
+    "ERP",
+    "Equipment Design",
+    "Gap Analysis",
+    "G Suite",
+    "Hardware Testing",
+    "Lean",
+    "Lean Principles",
+    "Lean Six Sigma",
+    "Manufacturing",
+    "Manufacturing Excellence",
+    "Microsoft Office",
+    "Military",
+    "NPI",
+    "Process Engineering",
+    "Process Improvement",
+    "Process Mapping",
+    "Process Optimization",
+    "Process Standardization",
+    "Production",
+    "Production Manager",
+    "Production Throughput",
+    "Project Management",
+    "Quality Assurance",
+    "Regulatory Compliance",
+    "Root Cause Analysis",
+    "Safety",
+    "Six Sigma",
+    "SME",
+    "SOP",
+    "Standard Operating Procedures",
+    "Subject Matter Expert",
+    "Supply Chain",
+    "Technical Documentation",
+    "Technical Training",
+    "Technical Writing",
+    "Value Stream Mapping",
+    "Workflow Optimization"
+  ]
+}

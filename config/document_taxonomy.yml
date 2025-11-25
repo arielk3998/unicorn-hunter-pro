@@ -1,0 +1,96 @@
+version: 1
+root: "Applications"
+schema:
+  - key: "application_root"
+    path: "{year}/{company} - {role}"
+    required: true
+    description: "Single folder per application instance"
+  - key: "incoming"
+    path: "{year}/{company} - {role}/00_Incoming"
+    required: true
+    description: "Raw inputs: job descriptions, screenshots, PDFs"
+    types:
+      - name: "job_description"
+        patterns: ["JD_*.txt", "JD_*.pdf"]
+        required: true
+  - key: "materials"
+    path: "{year}/{company} - {role}/10_Materials"
+    required: true
+    types:
+      - name: "resume"
+        patterns: ["*_Resume_*.docx", "*_Resume_*.pdf"]
+        required: true
+      - name: "cover_letter"
+        patterns: ["*_CoverLetter_*.docx", "*_CoverLetter_*.pdf"]
+        required: false
+      - name: "portfolio"
+        patterns: ["Portfolio_*.pdf", "Samples_*.pdf"]
+        required: false
+  - key: "communications"
+    path: "{year}/{company} - {role}/20_Communications"
+    required: true
+    types:
+      - name: "emails"
+        patterns: ["Email_*.eml", "Email_*.msg", "Email_*.pdf"]
+        required: false
+      - name: "notes"
+        patterns: ["Notes_*.md", "Notes_*.txt"]
+        required: false
+  - key: "interviews"
+    path: "{year}/{company} - {role}/30_Interviews"
+    required: false
+    types:
+      - name: "schedule"
+        patterns: ["Interview_Schedule_*.pdf", "Invite_*.pdf"]
+        required: false
+      - name: "prep"
+        patterns: ["Interview_Prep_*.md", "Interview_Questions_*.md"]
+        required: false
+      - name: "feedback"
+        patterns: ["Feedback_*.md", "Debrief_*.md"]
+        required: false
+  - key: "offers"
+    path: "{year}/{company} - {role}/40_Offers"
+    required: false
+    types:
+      - name: "offer_letter"
+        patterns: ["Offer_*.pdf", "Offer_*.docx"]
+        required: false
+      - name: "negotiation"
+        patterns: ["Negotiation_*.md"]
+        required: false
+  - key: "compliance"
+    path: "{year}/{company} - {role}/50_Compliance"
+    required: false
+    types:
+      - name: "nda"
+        patterns: ["NDA_*.pdf"]
+        required: false
+      - name: "background"
+        patterns: ["BackgroundCheck_*.pdf"]
+        required: false
+naming:
+  job_description: "JD_{Company}_{Role}_{Timestamp}.txt"
+  resume: "{Company}_{Role}_Resume_{Date}.docx"
+  cover_letter: "{Company}_{Role}_CoverLetter_{Date}.docx"
+  notes: "Notes_{Date}.md"
+
+checklist:
+  - id: "cover_letter"
+    label: "Cover letter generated"
+    required: false
+  - id: "application_url"
+    label: "Application URL recorded"
+    required: false
+  - id: "follow_up"
+    label: "Follow-up date set"
+    required: false
+  - id: "recruiter_contact"
+    label: "Recruiter name/email added"
+    required: false
+  - id: "interview_prep"
+    label: "Interview prep notes created"
+    required: false
+  - id: "portfolio"
+    label: "Portfolio or sample links attached"
+    required: false

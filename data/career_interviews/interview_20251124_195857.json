@@ -1,0 +1,254 @@
+{
+  "timestamp": "2025-11-24T19:58:57.172242",
+  "completed_date": "November 24, 2025 at 07:58 PM",
+  "responses": {
+    "primary_motivation": {
+      "answer": "Company culture and values",
+      "timestamp": "2025-11-24T19:52:34.544315"
+    },
+    "career_stage": {
+      "answer": "Mid-career - looking to specialize or advance",
+      "timestamp": "2025-11-24T19:52:55.861554"
+    },
+    "work_environment": {
+      "answer": "Enterprise - resources and stability",
+      "timestamp": "2025-11-24T19:53:20.569259"
+    },
+    "team_size": {
+      "answer": "Small team (2-10) - close collaboration",
+      "timestamp": "2025-11-24T19:53:24.545217"
+    },
+    "leadership_interest": {
+      "answer": "Open - would consider it",
+      "timestamp": "2025-11-24T19:53:29.954127"
+    },
+    "technical_depth": {
+      "answer": "Broad generalist across multiple areas",
+      "timestamp": "2025-11-24T19:53:58.083320"
+    },
+    "industry_preference": {
+      "answer": "Energy/CleanTech",
+      "timestamp": "2025-11-24T19:54:11.243606"
+    },
+    "problem_type": {
+      "answer": "Data analysis and insights",
+      "timestamp": "2025-11-24T19:54:25.556152"
+    },
+    "innovation_vs_stability": {
+      "answer": "Data analysis and insights",
+      "timestamp": "2025-11-24T19:54:33.054372"
+    },
+    "collaboration_style": {
+      "answer": "Independent with periodic syncs",
+      "timestamp": "2025-11-24T19:54:48.725160"
+    },
+    "customer_interaction": {
+      "answer": "Indirect - through customer feedback",
+      "timestamp": "2025-11-24T19:55:06.920339"
+    },
+    "learning_priorities": {
+      "answer": "System architecture and design",
+      "timestamp": "2025-11-24T19:55:20.272336"
+    },
+    "company_growth_stage": {
+      "answer": "Bootstrapped - profitable and sustainable",
+      "timestamp": "2025-11-24T19:55:34.222776"
+    },
+    "impact_scope": {
+      "answer": "Global - millions of users",
+      "timestamp": "2025-11-24T19:55:40.307589"
+    },
+    "work_schedule": {
+      "answer": "Results-focused - work when/how I want",
+      "timestamp": "2025-11-24T19:55:52.745870"
+    },
+    "commute_preference": {
+      "answer": "Fully remote - work from anywhere",
+      "timestamp": "2025-11-24T19:56:04.555311"
+    },
+    "risk_tolerance": {
+      "answer": "Moderate - established but growing company",
+      "timestamp": "2025-11-24T19:56:11.765181"
+    },
+    "values_alignment": {
+      "answer": [
+        "Diversity and inclusion",
+        "Environmental sustainability",
+        "Social responsibility"
+      ],
+      "timestamp": "2025-11-24T19:56:26.755040"
+    },
+    "deal_breakers": {
+      "answer": [
+        "Inadequate compensation",
+        "Poor work-life balance",
+        "Unethical business practices"
+      ],
+      "timestamp": "2025-11-24T19:56:38.849890"
+    },
+    "success_metrics": {
+      "answer": "Personal fulfillment",
+      "timestamp": "2025-11-24T19:56:44.636670"
+    }
+  },
+  "analysis": {
+    "career_stage": "Mid-career - looking to specialize or advance",
+    "preferred_roles": [],
+    "company_types": [
+      "Enterprise - resources and stability"
+    ],
+    "industries": [
+      "Energy/CleanTech"
+    ],
+    "work_style": {},
+    "values": [
+      "Diversity and inclusion",
+      "Environmental sustainability",
+      "Social responsibility"
+    ],
+    "red_flags": [
+      "Inadequate compensation",
+      "Poor work-life balance",
+      "Unethical business practices"
+    ],
+    "strengths": []
+  },
+  "job_recommendations": [
+    {
+      "title": "Software Engineer (Generalist)",
+      "match_score": 50,
+      "reasons": [
+        "Aligns with your focus: Broad generalist across multiple areas",
+        "Fits problem-solving style: Data analysis and insights"
+      ]
+    },
+    {
+      "title": "Data Scientist",
+      "match_score": 50,
+      "reasons": [
+        "Aligns with your focus: Broad generalist across multiple areas",
+        "Fits problem-solving style: Data analysis and insights"
+      ]
+    },
+    {
+      "title": "Data Engineer",
+      "match_score": 50,
+      "reasons": [
+        "Aligns with your focus: Broad generalist across multiple areas",
+        "Fits problem-solving style: Data analysis and insights"
+      ]
+    },
+    {
+      "title": "Business Intelligence Engineer",
+      "match_score": 50,
+      "reasons": [
+        "Aligns with your focus: Broad generalist across multiple areas",
+        "Fits problem-solving style: Data analysis and insights"
+      ]
+    },
+    {
+      "title": "Full Stack Engineer",
+      "match_score": 50,
+      "reasons": [
+        "Aligns with your focus: Broad generalist across multiple areas",
+        "Fits problem-solving style: Data analysis and insights"
+      ]
+    },
+    {
+      "title": "Product Engineer",
+      "match_score": 50,
+      "reasons": [
+        "Aligns with your focus: Broad generalist across multiple areas",
+        "Fits problem-solving style: Data analysis and insights"
+      ]
+    },
+    {
+      "title": "Analytics Engineer",
+      "match_score": 50,
+      "reasons": [
+        "Aligns with your focus: Broad generalist across multiple areas",
+        "Fits problem-solving style: Data analysis and insights"
+      ]
+    },
+    {
+      "title": "Solutions Architect",
+      "match_score": 50,
+      "reasons": [
+        "Aligns with your focus: Broad generalist across multiple areas",
+        "Fits problem-solving style: Data analysis and insights"
+      ]
+    },
+    {
+      "title": "Technical Lead",
+      "match_score": 50,
+      "reasons": [
+        "Aligns with your focus: Broad generalist across multiple areas",
+        "Fits problem-solving style: Data analysis and insights"
+      ]
+    },
+    {
+      "title": "Machine Learning Engineer",
+      "match_score": 50,
+      "reasons": [
+        "Aligns with your focus: Broad generalist across multiple areas",
+        "Fits problem-solving style: Data analysis and insights"
+      ]
+    }
+  ],
+  "company_recommendations": [
+    {
+      "name": "Zapier",
+      "match_score": 35,
+      "type": "Established company - defined processes",
+      "stage": "Bootstrapped - profitable and sustainable",
+      "industries": [
+        "Technology/Software"
+      ],
+      "work_style": "Fully remote - work from anywhere",
+      "known_for": "Remote-first, automation",
+      "reasons": [
+        "Aligns with desired stage: Bootstrapped - profitable and sustainable",
+        "Work style fit: Fully remote - work from anywhere",
+        "Known for: Remote-first, automation"
+      ]
+    },
+    {
+      "name": "Automattic",
+      "match_score": 35,
+      "type": "Established company - defined processes",
+      "stage": "Bootstrapped - profitable and sustainable",
+      "industries": [
+        "Technology/Software"
+      ],
+      "work_style": "Fully remote - work from anywhere",
+      "known_for": "WordPress, distributed team",
+      "reasons": [
+        "Aligns with desired stage: Bootstrapped - profitable and sustainable",
+        "Work style fit: Fully remote - work from anywhere",
+        "Known for: WordPress, distributed team"
+      ]
+    }
+  ],
+  "search_keywords": {
+    "job_titles": [
+      "Software Engineer (Generalist)",
+      "Data Scientist",
+      "Data Engineer",
+      "Business Intelligence Engineer",
+      "Full Stack Engineer"
+    ],
+    "companies": [
+      "Zapier",
+      "Automattic"
+    ],
+    "industries": [
+      "Energy/CleanTech"
+    ],
+    "technologies": [],
+    "role_types": [
+      "enterprise",
+      "large company",
+      "established"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+zipcode,title_norm,base_mean,base_p25,base_p75,col_index
+28202,manufacturing engineer,88000,76000,102000,1.05
+28202,production manager,95000,82000,115000,1.05
+10001,software engineer,140000,120000,170000,1.35
+10001,data analyst,85000,70000,105000,1.35
+85260,software engineer,125000,110000,150000,1.08
+85260,data analyst,78000,65000,96000,1.08
+60601,manufacturing engineer,92000,80000,108000,1.10
+30301,production manager,90000,78000,110000,1.00
+30301,data analyst,76000,62000,92000,1.00

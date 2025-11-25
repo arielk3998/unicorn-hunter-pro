@@ -1,0 +1,8 @@
+Company: World View Enterprises
+Position: Lead Technical Writer
+Top JD Keywords (first 20):
+documentation, technical, systems, content, experience, aerospace, regulatory, world, view, engineering, product, operations, company, training, work, user, writing, lead, balloon, flight
+Matched Keywords:
+aerospace, company, documentation, engineering, flight, lead, operations, product, regulatory, systems, technical, training, user, view, work, writing
+Missing Keywords:
+content, experience, world, balloon

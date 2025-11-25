@@ -1,0 +1,6 @@
+{
+  "api_token": "<YOUR_MONDAY_API_TOKEN>",
+  "jd_column_id": "job_description",
+  "company_column_id": "company",
+  "notes": "Copy this to monday_config.json and adjust column IDs to match your board. Leave blank to auto-detect by title keywords (description/company)."
+}

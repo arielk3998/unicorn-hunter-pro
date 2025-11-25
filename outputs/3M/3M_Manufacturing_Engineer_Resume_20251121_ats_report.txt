@@ -1,0 +1,8 @@
+Company: 3M
+Position: Manufacturing Engineer
+Top JD Keywords (first 20):
+benefits, range, position, employees, health, safety, job, specific, expected, compensation, pay, eligible, good, faith, candidate, not, accounts, care, information, www
+Matched Keywords:
+employees, expected, job, safety, specific
+Missing Keywords:
+benefits, range, position, health, compensation, pay, eligible, good, faith, candidate, not, accounts, care, information, www

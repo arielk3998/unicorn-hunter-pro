@@ -1,0 +1,32 @@
+{
+  "technical_skills": [
+    "Python",
+    "JavaScript",
+    "SQL",
+    "Docker",
+    "AWS",
+    "Git",
+    "React",
+    "Node.js"
+  ],
+  "soft_skills": [
+    "Project Management",
+    "Team Leadership",
+    "Communication",
+    "Problem Solving",
+    "Analytical Thinking",
+    "Cross-functional Collaboration"
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect",
+    "PMP Certification",
+    "Scrum Master (CSM)"
+  ],
+  "tools": [
+    "JIRA",
+    "Confluence",
+    "Microsoft Office Suite",
+    "Tableau",
+    "Salesforce"
+  ]
+}

@@ -1,0 +1,91 @@
+Company: World View Enterprises
+Position: Lead Technical Writer
+Date Saved: 2025-11-24 14:13:31
+================================================================================
+
+Job Title: Lead Technical Writer
+
+Location: Tucson, AZ, United States
+Company: World View Enterprises
+
+About World View
+
+World View Enterprises is a pioneering aerospace company based in Tucson, Arizona, focused on increasing access to the stratosphere through high-altitude balloon systems for scientific research, surveillance, and commercial missions. 
+At World View, we design, manufacture, and operate stratospheric balloon flight technology pushing the boundaries of space exploration in a sustainably scalable way.
+
+Role Overview
+
+As the Lead Technical Writer, you will play a pivotal role in transforming highly technical engineering, product, and operational content into clear, structured, and user-focused documentation. You will guide a team of writers (or freelancers), collaborate closely with cross-functional stakeholders (engineering, operations, QA, regulatory), and own the content strategy for documentation across the business including technical manuals, procedures, training materials, and API / software documentation.
+
+
+Key Responsibilities
+
+Lead, mentor, and manage a small team (or pool) of technical writers; assign tasks, review work, and provide feedback.
+
+Develop and maintain comprehensive documentation for World View’s products, systems, and processes: this includes hardware manuals, flight operations guides, ground systems documentation, SOPs, and maintenance procedures.
+
+Work with engineering, systems integration, flight operations, regulatory, and safety teams to gather detailed technical information, verify accuracy, and ensure compliance.
+
+Design content strategy for documentation, setting standards, templates, and style guides to ensure clarity, consistency, and usability.
+
+Analyze existing documentation and user feedback to continually improve documentation quality, user experience, and content delivery.
+
+Create user-friendly training materials (written, visual, possibly interactive) to support internal teams (operations, maintenance) and external stakeholders (customers, partners).
+
+Plan and manage documentation projects set timelines, estimate resource needs, and coordinate with product and engineering roadmaps.
+
+Ensure documentation meets relevant regulatory, quality, and safety standards (e.g., aerospace documentation, QA, compliance).
+
+Introduce and maintain documentation tools / systems (wiki, DITA, content management systems) to improve scalability and maintainability.
+
+Partner with Product Marketing (or equivalent) to translate technical documentation into customer-facing collateral, if needed.
+
+
+Required Qualifications
+
+Bachelor’s degree in Technical Communication, English, Engineering, Aerospace, or a closely related field.
+
+At least 5+ years of technical writing experience, preferably in an engineering-heavy industry (aerospace, defense, high-technology).
+
+Proven experience leading or managing a team of writers, or driving documentation strategy.
+
+Excellent writing, editing, and proofreading skills, with the ability to simplify and clarify complex technical content.
+
+Strong ability to collaborate cross functionally working with engineers, operations, product managers, and regulatory teams.
+
+Familiarity with documentation tools and content management systems (e.g., Confluence, MadCap Flare, DITA, Structured authoring).
+
+Experience producing deliverables like user manuals, maintenance guides, procedures, training materials.
+
+Understanding of regulatory or quality compliance in aerospace or similar industries is a big plus.
+
+Excellent project management and organizational skills.
+
+Attention to detail, strong analytical mindset, and ability to adapt quickly to evolving product changes.
+
+
+
+Preferred (Nice to Have)
+
+Experience with aerospace-specific documentation (balloon systems, UAVs, telemetry, etc.).
+
+Knowledge of software documentation (APIs, embedded systems, ground control software).
+
+Experience with content localization/internationalization (if company operates globally).
+
+Familiarity with UX writing / user experience principles.
+
+Experience in authoring for training or e-learning formats.
+
+Previous exposure to QA, safety, or regulatory writing (e.g., for FAA, ISO, etc.).
+
+
+What You’ll Get / Why Work Here
+
+The chance to work on cutting-edge aerospace technology in a rapidly evolving, high impact field.
+
+A collaborative, mission-driven culture passionate about exploration and innovation.
+
+Competitive compensation and benefits package.
+
+Opportunities for professional growth leading documentation efforts in a growing company.

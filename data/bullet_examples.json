@@ -1,0 +1,29 @@
+{
+  "examples": [
+    {
+      "bullet": "Led cross-functional team of 12 to implement automated quality inspection system, reducing defect rate 27% while accelerating throughput 15%.",
+      "roles": ["manufacturing", "operations"],
+      "skills": ["automation", "quality", "leadership"]
+    },
+    {
+      "bullet": "Optimized ETL pipelines processing 8M+ records/day, cutting latency from 42 to 11 minutes and lowering infra cost 18%.",
+      "roles": ["data", "engineering"],
+      "skills": ["etl", "optimization", "cost reduction"]
+    },
+    {
+      "bullet": "Implemented Lean Kaizen initiatives across 3 facilities, eliminating 240 labor hours per month and saving $310K annually.",
+      "roles": ["manufacturing", "continuous improvement"],
+      "skills": ["lean", "kaizen", "cost savings"]
+    },
+    {
+      "bullet": "Engineered containerized deployment workflow (Docker + CI) shrinking release cycle from weekly to daily and improving rollback reliability.",
+      "roles": ["devops", "software"],
+      "skills": ["docker", "ci/cd", "deployment"]
+    },
+    {
+      "bullet": "Analyzed customer churn patterns using cohort segmentation and predictive signals, informing retention playbook that lifted renewals 9%.",
+      "roles": ["data", "product"],
+      "skills": ["analytics", "cohort", "retention"]
+    }
+  ]
+}

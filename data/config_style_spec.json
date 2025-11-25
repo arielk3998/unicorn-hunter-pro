@@ -1,0 +1,33 @@
+{
+  "fonts": {
+    "styled": "Calibri",
+    "ats": "Arial"
+  },
+  "sizes": {
+    "name": 20,
+    "section_title": 12,
+    "body": 10,
+    "cover_name": 18
+  },
+  "colors": {
+    "accent_hex": "123456"
+  },
+  "spacing": {
+    "section_after_pt": 4,
+    "bullet_after_pt": 2,
+    "skills_after_pt": 6
+  },
+  "margins_inches": {
+    "top": 0.7,
+    "bottom": 0.7,
+    "left": 0.6,
+    "right": 0.6
+  },
+  "experience_header_format": "Company | Title | Dates | Location (dates right-aligned in styled version)",
+  "bullet_rules": {
+    "max_words": 28,
+    "remove_trailing_punctuation": true,
+    "preserve_action_verbs": true,
+    "truncate_suffix": "…"
+  }
+}

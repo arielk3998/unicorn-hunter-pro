@@ -1,0 +1,41 @@
+[
+  {
+    "company": "Tech Company Inc.",
+    "title": "Senior Software Engineer",
+    "location": "San Francisco, CA",
+    "dates": "Jan 2020 - Present",
+    "bullets": [
+      "Led development of microservices architecture serving 1M+ users, improving system performance by 40%",
+      "Mentored team of 5 junior developers, establishing code review processes and best practices",
+      "Implemented CI/CD pipeline reducing deployment time from 2 hours to 15 minutes",
+      "Collaborated with product team to design and launch 3 major features, increasing user engagement by 25%",
+      "Optimized database queries resulting in 60% reduction in response times"
+    ]
+  },
+  {
+    "company": "Startup Solutions LLC",
+    "title": "Software Developer",
+    "location": "Austin, TX",
+    "dates": "Jun 2017 - Dec 2019",
+    "bullets": [
+      "Developed full-stack web applications using React, Node.js, and PostgreSQL",
+      "Designed and implemented RESTful APIs serving mobile and web clients",
+      "Reduced application load time by 50% through performance optimization techniques",
+      "Participated in agile ceremonies and contributed to sprint planning and retrospectives",
+      "Created technical documentation for internal APIs and development workflows"
+    ]
+  },
+  {
+    "company": "Digital Agency Co.",
+    "title": "Junior Developer",
+    "location": "Seattle, WA",
+    "dates": "Jan 2015 - May 2017",
+    "bullets": [
+      "Built responsive websites for clients using HTML, CSS, JavaScript, and WordPress",
+      "Collaborated with designers to implement pixel-perfect UI/UX designs",
+      "Debugged and resolved production issues, maintaining 99.9% uptime",
+      "Assisted senior developers with code reviews and testing procedures",
+      "Learned modern development practices including Git workflows and automated testing"
+    ]
+  }
+]

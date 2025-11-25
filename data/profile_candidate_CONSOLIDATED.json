@@ -1,0 +1,204 @@
+{
+  "degree": "Bachelor of Science (B.S.) in Computer Information Systems",
+  "university": "Post University",
+  "location": "Waterbury, CT",
+  "graduation_dates": "2020 – 2022",
+  "honors": [
+    "President's List (GPA 3.5+)",
+    "National Society of Leadership and Success"
+  ],
+  "additional_education": [
+    {
+      "degree": "Master of Business Administration",
+      "university": "Western Governors University",
+      "location": "Millcreek, UT",
+      "estimated_graduation": "07/30/2027"
+    }
+  ],
+  "awards": [
+    "President's List: By achieving and maintaining a GPA of 3.5 or greater (2020-2022)",
+    "Excellence Award: Managing Organizations and Leading People (2023)"
+  ],
+  "years_experience": 10,
+  "professional_summary": "Results-driven Manufacturing & Supply Chain Engineer with 10+ years optimizing production systems, leading NPI scale-up initiatives, and implementing Lean Six Sigma process improvements. Proven track record: 300% production throughput increase, 50% testing efficiency gains, 20% error reduction, and 15% downtime reduction. Subject matter expert in cross-functional collaboration, CAPEX planning, and translating business requirements into scalable manufacturing solutions while maintaining regulatory compliance.",
+  "alternative_summaries": [
+    "Results-driven technical leader with expertise in engineering, documentation standardization, and process improvement within aerospace and manufacturing environments. Proven ability to lead cross-functional teams, optimize technical workflows, and drive operational efficiency. Adept at technical writing, training, and mentoring, with a strong focus on clarity, compliance, and process improvement.",
+    "Bachelor Of Science professional with 10+ years driving Manufacturing, Solar, and Quality targeting Production Manager. Recognized for translating operational objectives into measurable gains through data-driven improvement, cross-functional leadership, and disciplined execution.",
+    "Highly motivated recent University Computer Information Systems bachelor's degree program graduate. Proficient in Microsoft Office Suite, G Suite, task management, scheduling, effective communication, and problem-solving."
+  ],
+  "skills": [
+    "Analytical Thinking",
+    "Communication",
+    "Critical Thinking",
+    "Data Analysis",
+    "Risk Management",
+    "Task Management",
+    "Troubleshooting",
+    "Problem-Solving",
+    "Attention to Detail",
+    "Technical Writing",
+    "Technical Documentation",
+    "Documentation Standardization",
+    "Process Optimization",
+    "Process Improvement",
+    "Cross-Functional Collaboration",
+    "Team Leadership",
+    "Training & Mentoring",
+    "Quality Assurance",
+    "Safety Processes",
+    "Continuous Improvement",
+    "Leadership Development",
+    "Effective Communication",
+    "Stakeholder Communication",
+    "Time Management",
+    "Scheduling",
+    "Customer Support",
+    "Project Management"
+  ],
+  "technologies": [
+    "Microsoft Office Suite (Expert)",
+    "Microsoft Office",
+    "G Suite (Google Workspace)",
+    "ERP Systems",
+    "Aurora ERP CRM",
+    "Dynamics 365",
+    "Technical Documentation Tools",
+    "Data Analysis Tools",
+    "Diagnostic Equipment",
+    "Mobile Applications",
+    "Software Improvement Solutions"
+  ],
+  "technical_skills_categories": {
+    "Manufacturing_Excellence": [
+      "NPI Integration & Scale-Up",
+      "Process Optimization",
+      "Production Throughput Enhancement",
+      "Manufacturing Process Design",
+      "Equipment Validation & Testing",
+      "Assembly Procedures",
+      "Streamlining Assembly Procedures",
+      "Space Flight Valve Production",
+      "Field-Simulation Testing",
+      "Aerospace Assembly Engineering",
+      "Aircraft Subsystem Assembly",
+      "Manufacturing"
+    ],
+    "Quality_and_Compliance": [
+      "Customer Complaint Resolution",
+      "Cost of Poor Quality Reduction",
+      "Quality Assurance Protocols",
+      "Regulatory Compliance (Aerospace)",
+      "Technical Documentation Standards",
+      "Hardware Inspection",
+      "Quality Assurance (QA) for Engineering Products"
+    ],
+    "Process_Engineering": [
+      "Lean Six Sigma Methodologies",
+      "Value Stream Mapping",
+      "Root Cause Analysis",
+      "Process Standardization (SOPs)",
+      "Automation & Workflow Optimization",
+      "Automation",
+      "Algorithmic Solutions for Workflow Streamlining",
+      "Technical Workflow Optimization"
+    ],
+    "Technical_Leadership": [
+      "Cross-Functional Team Collaboration",
+      "Subject Matter Expertise (Assembly/Testing)",
+      "Technical Training & Mentoring",
+      "Stakeholder Communication",
+      "Project Management",
+      "Coordination Across Departments"
+    ],
+    "Systems_and_Technology": [
+      "ERP Systems (Aurora, Dynamics 365)",
+      "CAPEX Planning & Equipment Design Support",
+      "Microsoft Office Suite (Advanced)",
+      "Data Analysis & Reporting",
+      "New Technology Adoption",
+      "Data Analysis for Maintenance Support"
+    ],
+    "Aerospace_and_Military": [
+      "Apache Helicopter Maintenance",
+      "Aircraft Systems Inspection",
+      "Hydraulics",
+      "Electrical Systems",
+      "Flight Controls",
+      "Rotor Systems",
+      "Engine Components",
+      "Avionics Equipment",
+      "Maintenance Checks and Inspections"
+    ],
+    "Technical_Writing": [
+      "SOP Development",
+      "User Manuals",
+      "Training Modules",
+      "Technical Reports",
+      "Engineering Documentation Review and Revision",
+      "Documentation Refinement"
+    ],
+    "Specialized_Skills": [
+      "Specialized Tooling Design",
+      "Equipment Design",
+      "Supply Chain Support",
+      "Behavioral Observation Process (BOP) Leadership",
+      "Continuous Improvement System (CIS) Leadership"
+    ]
+  },
+  "methodologies": [
+    "Lean Six Sigma",
+    "Value Stream Mapping",
+    "Root Cause Analysis",
+    "Continuous Improvement System (CIS)",
+    "Behavioral Observation Process (BOP)",
+    "Gap Analysis",
+    "Process Mapping"
+  ],
+  "achievements": [
+    "Delivered 300% production throughput increase and 50% testing efficiency gains for human-rated aerospace components through systematic process reengineering",
+    "Improved production time of two human-rated space flight valves by 300%",
+    "Improved production time of space flight valves by 300% through streamlined testing procedures",
+    "Improved hardware field-simulation testing results by over 50%",
+    "Enhanced hardware testing efficiency by 50% with optimized assembly protocols",
+    "Spearheaded ERP migration (Aurora → Dynamics 365) reducing documentation errors 20% and enabling cross-departmental standardization",
+    "Standardized technical documentation, improving clarity and reducing errors by 20% across departments",
+    "Led cross-functional technical writing team achieving 95% on-time delivery while elevating quality standards organization-wide",
+    "Delegated and supervised tasks for a team of four technical writers, ensuring 95% on-time deliverables",
+    "Decreased system downtime 15% and improved safety compliance 20% through structured protocols and targeted training initiatives",
+    "Reduced downtime by 15% through detailed inspections and troubleshooting of systems",
+    "Implemented safety protocols that increased workplace compliance by 20%",
+    "Automated technical workflows achieving zero-defect accuracy and eliminating manual calculation errors",
+    "Restructured automation to technical workflow, streamlined assembly procedures via algorithmic solution, and reduced calculation errors to zero",
+    "Led the transition of ERP platforms and managed a team of writers to deliver error-reducing, department-wide documentation improvements—over 20% fewer errors reported in R&D and measurable gains across manufacturing KPIs, including a 10x reduction in assembly times and a 3x drop in bench testing cycles"
+  ],
+  "certifications": [],
+  "military_service": {
+    "branch": "U.S. Army National Guard",
+    "dates": "Oct 2012 – Aug 2015",
+    "mos": "15R Apache Repairer",
+    "responsibilities": [
+      "Performed maintenance, troubleshooting, and repairs on AH-64 Apache attack helicopters to keep them flight-ready",
+      "Conducted inspections of aircraft systems including engines, hydraulics, electrical, flight controls, and rotor systems to identify needed repairs",
+      "Replaced defective parts including gearboxes, engine components, flight control actuators, and avionics equipment",
+      "Followed maintenance manuals, schematics, and publications to complete repairs according to Army regulations",
+      "Used diagnostic equipment and tools to pinpoint malfunctions and errors",
+      "Maintained maintenance records and documentation for each aircraft serviced",
+      "Participated in training to stay current on Apache maintenance procedures and techniques",
+      "Coordinated with pilots and other maintenance personnel to manage aircraft servicing schedule",
+      "Ensured work areas and tools were properly cleaned and organized to maintain safety and efficiency",
+      "Completed maintenance tasks within strict time constraints to meet flight schedule demands"
+    ]
+  },
+  "clearance": "Eligible for security clearance (aerospace industry background)",
+  "location_preference": "",
+  "travel_ok": true,
+  "relocation_ok": true,
+  "relocation_statement": "Open to relocation to Maplewood, MN or other locations",
+  "travel_statement": "Available for up to 15% travel as required",
+  "interests": [
+    "Technology Innovation",
+    "Process Optimization",
+    "Aerospace Assembly Engineering",
+    "Leadership Development"
+  ]
+}

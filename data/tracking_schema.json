@@ -1,0 +1,78 @@
+{
+  "description": "Comprehensive job application tracking schema - combines manual tracking with automated analysis",
+  "version": "2.0",
+  "columns": {
+    "basic_info": {
+      "company": {"type": "string", "required": true, "description": "Employer name"},
+      "position": {"type": "string", "required": true, "description": "Job title"},
+      "location": {"type": "string", "required": true, "description": "Job location (city, state)"},
+      "job_type": {"type": "string", "options": ["Full-Time", "Part-Time", "Contract", "Temp"], "description": "Employment type"},
+      "posted_date": {"type": "date", "description": "Date job was posted"},
+      "application_date": {"type": "date", "auto": true, "description": "Date applied (auto-populated)"},
+      "application_url": {"type": "url", "description": "Link to job posting"}
+    },
+    "compensation": {
+      "salary_min": {"type": "number", "description": "Minimum salary range"},
+      "salary_max": {"type": "number", "description": "Maximum salary range"},
+      "salary_target": {"type": "number", "auto": true, "description": "Your target salary (auto from profile)"},
+      "relocation_assistance": {"type": "boolean", "description": "Relocation package offered"},
+      "travel_percent": {"type": "number", "description": "Required travel percentage"},
+      "benefits_summary": {"type": "string", "description": "Key benefits mentioned"}
+    },
+    "application_materials": {
+      "resume_version": {"type": "string", "auto": true, "description": "Generated resume filename"},
+      "cover_letter_version": {"type": "string", "auto": true, "description": "Generated cover letter filename"},
+      "job_description_file": {"type": "string", "auto": true, "description": "Saved JD filename"},
+      "tailoring_notes": {"type": "string", "auto": true, "description": "Key customizations made"}
+    },
+    "matching_analysis": {
+      "overall_match_percent": {"type": "number", "auto": true, "description": "Overall match score"},
+      "must_have_match": {"type": "number", "auto": true, "description": "Must-have requirements match %"},
+      "tech_match": {"type": "number", "auto": true, "description": "Technical skills match %"},
+      "process_match": {"type": "number", "auto": true, "description": "Process/methodology match %"},
+      "leadership_match": {"type": "number", "auto": true, "description": "Leadership experience match %"},
+      "npi_match": {"type": "number", "auto": true, "description": "NPI/new product match %"},
+      "mindset_match": {"type": "number", "auto": true, "description": "Growth mindset/culture match %"},
+      "logistics_match": {"type": "number", "auto": true, "description": "Logistics/location match %"},
+      "years_required": {"type": "number", "auto": true, "description": "Years experience required"},
+      "years_candidate": {"type": "number", "auto": true, "description": "Years experience you have"},
+      "education_required": {"type": "string", "auto": true, "description": "Education requirement"},
+      "education_met": {"type": "boolean", "auto": true, "description": "Education requirement satisfied"},
+      "key_gaps": {"type": "string", "auto": true, "description": "Missing qualifications"},
+      "competitive_advantages": {"type": "string", "auto": true, "description": "Your unique strengths for this role"}
+    },
+    "tracking": {
+      "application_status": {"type": "string", "options": ["Not Applied", "Applied", "Phone Screen", "Interview 1", "Interview 2+", "Offer", "Rejected", "Withdrawn"], "default": "Applied", "description": "Current application status"},
+      "priority": {"type": "string", "options": ["High", "Medium", "Low"], "auto": true, "description": "Application priority based on match"},
+      "follow_up_date": {"type": "date", "description": "Next follow-up scheduled"},
+      "recruiter_name": {"type": "string", "description": "Recruiter/hiring manager name"},
+      "recruiter_contact": {"type": "string", "description": "Recruiter email/phone"},
+      "interview_dates": {"type": "string", "description": "Interview dates (comma-separated)"},
+      "notes": {"type": "string", "description": "Additional notes"}
+    },
+    "outcomes": {
+      "offer_amount": {"type": "number", "description": "Offer salary if received"},
+      "offer_date": {"type": "date", "description": "Date offer received"},
+      "rejection_reason": {"type": "string", "description": "Reason for rejection (if known)"},
+      "lessons_learned": {"type": "string", "description": "Insights for future applications"}
+    }
+  },
+  "automation_triggers": {
+    "on_new_job": [
+      "Parse job description",
+      "Compute match scores",
+      "Identify gaps and advantages",
+      "Generate tailored resume",
+      "Generate tailored cover letter",
+      "Save JD to file",
+      "Update spreadsheet row",
+      "Set priority based on match",
+      "Create follow-up reminder"
+    ]
+  },
+  "priority_rules": {
+    "High": "overall_match >= 70% OR (must_have >= 80% AND salary_max >= target)",
+    "Medium": "overall_match >= 50% OR must_have >= 60%",
+    "Low": "overall_match < 50%"
+  }
+}
