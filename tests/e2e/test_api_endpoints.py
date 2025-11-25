@@ -13,7 +13,8 @@ class TestAPIEndToEnd:
         """Test root endpoint returns correct response"""
         response = client.get("/")
         assert response.status_code == 200
-        assert "Resume Toolkit API" in response.json()["message"]
+        # Updated branding assertion to reflect new project name
+        assert "The Unicorn Hunter" in response.json()["message"]
     
     def test_health_check(self):
         """Test health check endpoint"""

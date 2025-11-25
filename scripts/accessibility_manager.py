@@ -64,8 +64,6 @@ class AccessibilityManager:
         r_srgb = convert(r)
         g_srgb = convert(g)
         b_srgb = convert(b)
-        
-        # Calculate luminance
         return 0.2126 * r_srgb + 0.7152 * g_srgb + 0.0722 * b_srgb
     
     def calculate_contrast_ratio(self, color1: str, color2: str) -> float:
@@ -101,9 +99,6 @@ class AccessibilityManager:
             foreground: Foreground color (hex)
             background: Background color (hex)
             large_text: True if text is 18pt+ or 14pt+ bold
-            
-        Returns:
-            Tuple of (is_compliant, actual_ratio)
         """
         ratio = self.calculate_contrast_ratio(foreground, background)
         required = self.CONTRAST_LARGE_TEXT if large_text else self.CONTRAST_NORMAL_TEXT
@@ -454,7 +449,7 @@ ACCESSIBLE_PALETTES = {
         'bg_gradient_end': '#F1F5F9',       # Cool gray
         
         # Accent System - Vibrant Blue-Purple Gradient
-        'accent': '#3B82F6',                # Electric blue
+        'accent': '#1E40AF',                # Deep accessible blue (improved contrast on light backgrounds)
         'accent_secondary': '#8B5CF6',      # Vivid purple
         'accent_gradient': 'linear-gradient(135deg, #3B82F6 0%, #8B5CF6 100%)',
         'accent_dark': '#1E40AF',           # Deep blue
@@ -482,7 +477,7 @@ ACCESSIBLE_PALETTES = {
         # Typography
         'text': '#0F172A',                  # Slate 900 (19.2:1 contrast)
         'text_secondary': '#475569',        # Slate 600 (7.1:1)
-        'text_muted': '#94A3B8',            # Slate 400 (4.5:1)
+        'text_muted': '#556270',            # Darkened muted text (~5.2:1 contrast on light bg)
         
         # Surfaces & Glassmorphism
         'surface': '#FFFFFF',               # Pure white
@@ -538,7 +533,7 @@ ACCESSIBLE_PALETTES = {
         # Typography
         'text': '#F8FAFC',                  # Slate 50 (18.5:1)
         'text_secondary': '#CBD5E1',        # Slate 300 (9.2:1)
-        'text_muted': '#64748B',            # Slate 500 (4.6:1)
+        'text_muted': '#94A3B8',            # Lightened muted text to exceed 4.5:1 on dark bg
         
         # Surfaces & Glassmorphism
         'surface': '#1E293B',               # Slate 800
