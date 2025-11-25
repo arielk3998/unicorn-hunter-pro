@@ -54,6 +54,21 @@ To include an icon (`.ico` file), add:
 & ".venv/Scripts/python.exe" -m PyInstaller --onefile --noconsole --icon assets/unicorn.ico --name "UnicornHunter" scripts/launch_unicorn_hunter.py
 ```
 
+### Fetching a Unicorn Icon
+
+Run the helper script to download and generate `assets/unicorn.ico` (OpenMoji unicorn under CC BY-SA 4.0):
+
+```powershell
+./scripts/fetch_unicorn_icon.ps1
+```
+
+Then rebuild with the `--icon` flag or reinstall the desktop shortcut:
+
+```powershell
+pyinstaller --onefile --noconsole --icon assets/unicorn.ico --name UnicornHunter scripts/launch_unicorn_hunter.py
+./scripts/install_desktop_shortcut.ps1 -Api -Browser
+```
+
 ## Windows Desktop Shortcut
 
 1. Right-click Desktop → New → Shortcut.

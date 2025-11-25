@@ -52,8 +52,9 @@ $repoRoot = Split-Path $PSScriptRoot -Parent
 $desktop   = [Environment]::GetFolderPath('Desktop')
 $shortcut  = Join-Path $desktop ("$ShortcutName.lnk")
 
-$exePath   = Join-Path $repoRoot 'dist/UnicornHunter.exe'
+$exePath    = Join-Path $repoRoot 'dist/UnicornHunter.exe'
 $psLauncher = Join-Path $repoRoot 'launch_unicorn_hunter.ps1'
+$iconCandidate = Join-Path $repoRoot 'assets/unicorn.ico'
 
 $flags = @()
 if ($Api) { $flags += '-Api' }
@@ -62,7 +63,13 @@ $flagString = ($flags -join ' ')
 
 if ($UseExe -and (Test-Path $exePath)) {
     Write-Host "Creating shortcut targeting EXE: $exePath"
-    New-DesktopShortcut -TargetPath $exePath -Arguments $flagString -ShortcutPath $shortcut -WorkingDir $repoRoot
+    if (Test-Path $iconCandidate) {
+        Write-Host "Using icon: $iconCandidate"
+        New-DesktopShortcut -TargetPath $exePath -Arguments $flagString -ShortcutPath $shortcut -WorkingDir $repoRoot -IconPath $iconCandidate
+    }
+    else {
+        New-DesktopShortcut -TargetPath $exePath -Arguments $flagString -ShortcutPath $shortcut -WorkingDir $repoRoot
+    }
 }
 else {
     if (-not (Test-Path $psLauncher)) {
@@ -72,7 +79,13 @@ else {
     # Target powershell.exe with -File argument
     $escaped = $psLauncher.Replace('`"','"')
     $args = "-ExecutionPolicy Bypass -File `"$escaped`" $flagString".Trim()
-    New-DesktopShortcut -TargetPath "powershell.exe" -Arguments $args -ShortcutPath $shortcut -WorkingDir $repoRoot
+    if (Test-Path $iconCandidate) {
+        Write-Host "Using icon: $iconCandidate"
+        New-DesktopShortcut -TargetPath "powershell.exe" -Arguments $args -ShortcutPath $shortcut -WorkingDir $repoRoot -IconPath $iconCandidate
+    }
+    else {
+        New-DesktopShortcut -TargetPath "powershell.exe" -Arguments $args -ShortcutPath $shortcut -WorkingDir $repoRoot
+    }
 }
 
 Write-Host "Shortcut created: $shortcut"
