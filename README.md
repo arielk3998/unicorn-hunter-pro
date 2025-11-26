@@ -84,10 +84,10 @@ To include an icon (`.ico` file), add:
 
 ### Fetching a Unicorn Icon
 
-Run the helper script to download and generate `assets/unicorn.ico` (OpenMoji unicorn under CC BY-SA 4.0):
+Run the Python helper script to download and generate `assets/unicorn.ico` (OpenMoji unicorn under CC BY-SA 4.0):
 
-```powershell
-./scripts/fetch_unicorn_icon.ps1
+```bash
+python scripts/create_unicorn_icon.py
 ```
 
 Then rebuild with the `--icon` flag or reinstall the desktop shortcut:

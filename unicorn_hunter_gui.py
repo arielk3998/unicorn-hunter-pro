@@ -18,6 +18,16 @@ class UnicornHunterApp:
         self.root.title("🦄 The Unicorn Hunter - Job Application Tracker")
         self.root.geometry("1200x800")
         self.root.configure(bg='#1a1a2e')
+        # Set window icon if available
+        try:
+            import os
+            from pathlib import Path
+            icon_path = Path(__file__).parent / "assets" / "unicorn.ico"
+            if icon_path.exists():
+                # On Windows, use iconbitmap; on other platforms, fallback is harmless
+                self.root.iconbitmap(default=str(icon_path))
+        except Exception:
+            pass
         
         # Store auth tokens
         self.access_token: Optional[str] = None

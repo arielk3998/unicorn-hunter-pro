@@ -107,6 +107,13 @@ Write-Success "Dependencies installed"
 # Step 4: Create shortcuts
 Write-Step "4/5 Creating shortcuts"
 
+# Ensure unicorn icon exists
+$iconPath = Join-Path $repoRoot 'assets/unicorn.ico'
+if (-not (Test-Path $iconPath)) {
+    Write-Host "Creating unicorn icon..." -ForegroundColor Yellow
+    & $pythonExe (Join-Path $repoRoot 'scripts/create_unicorn_icon.py')
+}
+
 $desktop = [Environment]::GetFolderPath('Desktop')
 $startMenu = [Environment]::GetFolderPath('StartMenu')
 $startMenuFolder = Join-Path $startMenu "Programs\Unicorn Hunter"
