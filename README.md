@@ -14,9 +14,29 @@ AI-powered job application tracker with resume optimization, ATS analysis, intel
 - 🍎 **macOS**: [Download UnicornHunter-macOS.tar.gz](https://github.com/arielk3998/unicorn-hunter-pro/releases/latest/download/UnicornHunter-macOS.tar.gz)
 - 🐧 **Linux**: [Download UnicornHunter-Linux.tar.gz](https://github.com/arielk3998/unicorn-hunter-pro/releases/latest/download/UnicornHunter-Linux.tar.gz)
 
-📖 **[Full Installation Guide](INSTALL.md)** | 🚀 **[Latest Release](https://github.com/arielk3998/unicorn-hunter-pro/releases/latest)**
+📖 **[Full Installation Guide](INSTALL.md)** | 🚀 **[Latest Release](https://github.com/arielk3998/unicorn-hunter-pro/releases/latest)** | ⚡ **[Quick Start Guide](QUICKSTART.md)**
 
-## Quick Start (Desktop GUI)
+## 🚀 Launch Now (If You Have the Source Code)
+
+**Easiest way** - Just double-click one of these files:
+
+1. **First time**: Double-click `INSTALL_AND_RUN.ps1`
+   - Installs everything automatically
+   - Creates Desktop + Start Menu shortcuts
+   - Launches the app
+
+2. **Every time after**: Double-click the Desktop shortcut "Unicorn Hunter"
+
+**Alternative launch methods**:
+- Double-click `RUN.ps1` (PowerShell)
+- Double-click `RUN.bat` (Command Prompt)
+- Start Menu → Search "Unicorn Hunter"
+
+**Troubleshooting?** See [QUICKSTART.md](QUICKSTART.md) for detailed help.
+
+---
+
+## 💻 Advanced Usage (For Developers)
 
 Run the graphical client (no browser required):
 
@@ -25,16 +45,10 @@ cd "D:/Master Folder/Ariel's/Personal Documents/Career/Ariels-Resumes/resume-too
 & ".venv/Scripts/python.exe" scripts/launch_unicorn_hunter.py
 ```
 
-Start GUI plus FastAPI backend on a free port and open browser:
+Start GUI plus FastAPI backend:
 
 ```powershell
-& ".venv/Scripts/python.exe" scripts/launch_unicorn_hunter.py --api --browser
-```
-
-Specify a preferred port:
-
-```powershell
-& ".venv/Scripts/python.exe" scripts/launch_unicorn_hunter.py --api --port 8090 --browser
+& ".venv/Scripts/python.exe" scripts/launch_unicorn_hunter.py --api --browser --port 8090
 ```
 
 ## PowerShell Convenience Launcher
