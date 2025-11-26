@@ -1,0 +1,179 @@
+name: Build and Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version tag (e.g., v1.0.0)'
+        required: true
+        default: 'v0.1.0'
+
+permissions:
+  contents: write
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pyinstaller
+
+      - name: Fetch unicorn icon
+        run: |
+          powershell -ExecutionPolicy Bypass -File scripts/fetch_unicorn_icon.ps1
+
+      - name: Build Windows executable
+        run: |
+          pyinstaller --onefile --noconsole --icon assets/unicorn.ico --name UnicornHunter scripts/launch_unicorn_hunter.py
+
+      - name: Package Windows release
+        run: |
+          mkdir release-windows
+          Copy-Item dist/UnicornHunter.exe release-windows/
+          Copy-Item README.md release-windows/
+          Copy-Item LICENSE release-windows/ -ErrorAction SilentlyContinue
+          Compress-Archive -Path release-windows/* -DestinationPath UnicornHunter-Windows.zip
+
+      - name: Upload Windows artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: windows-build
+          path: UnicornHunter-Windows.zip
+
+  build-macos:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pyinstaller
+
+      - name: Build macOS executable
+        run: |
+          pyinstaller --onefile --windowed --name UnicornHunter scripts/launch_unicorn_hunter.py
+
+      - name: Package macOS release
+        run: |
+          mkdir release-macos
+          cp dist/UnicornHunter release-macos/
+          cp README.md release-macos/
+          cp LICENSE release-macos/ 2>/dev/null || true
+          tar -czf UnicornHunter-macOS.tar.gz -C release-macos .
+
+      - name: Upload macOS artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: macos-build
+          path: UnicornHunter-macOS.tar.gz
+
+  build-linux:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          pip install pyinstaller
+
+      - name: Build Linux executable
+        run: |
+          pyinstaller --onefile --name UnicornHunter scripts/launch_unicorn_hunter.py
+
+      - name: Package Linux release
+        run: |
+          mkdir release-linux
+          cp dist/UnicornHunter release-linux/
+          cp README.md release-linux/
+          cp LICENSE release-linux/ 2>/dev/null || true
+          tar -czf UnicornHunter-Linux.tar.gz -C release-linux .
+
+      - name: Upload Linux artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: linux-build
+          path: UnicornHunter-Linux.tar.gz
+
+  create-release:
+    needs: [build-windows, build-macos, build-linux]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Download all artifacts
+        uses: actions/download-artifact@v4
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ github.event.inputs.version || github.ref_name }}
+          name: Release ${{ github.event.inputs.version || github.ref_name }}
+          draft: false
+          prerelease: false
+          body: |
+            ## Unicorn Hunter Pro - Job Application Tracker
+
+            ### What's New
+            - AI-powered job application tracking
+            - Resume optimization and ATS analysis
+            - Desktop GUI launcher (no browser required)
+            - Intelligent job matching
+
+            ### Downloads
+            Choose the version for your operating system:
+
+            - **Windows**: UnicornHunter-Windows.zip
+            - **macOS**: UnicornHunter-macOS.tar.gz
+            - **Linux**: UnicornHunter-Linux.tar.gz
+
+            ### Installation
+            See [INSTALL.md](https://github.com/${{ github.repository }}/blob/main/INSTALL.md) for detailed instructions.
+
+            ### Quick Start (Windows)
+            1. Download UnicornHunter-Windows.zip
+            2. Extract the ZIP file
+            3. Double-click UnicornHunter.exe
+            4. (Optional) Create desktop shortcut
+
+            ### Attribution
+            Unicorn icon © OpenMoji – Licensed under CC BY-SA 4.0
+
+            ### License
+            MIT License - Free for personal and commercial use
+          files: |
+            windows-build/UnicornHunter-Windows.zip
+            macos-build/UnicornHunter-macOS.tar.gz
+            linux-build/UnicornHunter-Linux.tar.gz
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

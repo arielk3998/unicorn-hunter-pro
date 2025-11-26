@@ -2,6 +2,20 @@
 
 AI-powered job application tracker with resume optimization, ATS analysis, intelligent job matching, and an optional desktop GUI launcher.
 
+[![Release](https://img.shields.io/github/v/release/arielk3998/unicorn-hunter-pro?label=Download&color=blue)](https://github.com/arielk3998/unicorn-hunter-pro/releases/latest)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](https://github.com/arielk3998/unicorn-hunter-pro/releases)
+
+## 📥 Download & Install
+
+**Get the free desktop app** - No coding required!
+
+- 🪟 **Windows**: [Download UnicornHunter-Windows.zip](https://github.com/arielk3998/unicorn-hunter-pro/releases/latest/download/UnicornHunter-Windows.zip)
+- 🍎 **macOS**: [Download UnicornHunter-macOS.tar.gz](https://github.com/arielk3998/unicorn-hunter-pro/releases/latest/download/UnicornHunter-macOS.tar.gz)
+- 🐧 **Linux**: [Download UnicornHunter-Linux.tar.gz](https://github.com/arielk3998/unicorn-hunter-pro/releases/latest/download/UnicornHunter-Linux.tar.gz)
+
+📖 **[Full Installation Guide](INSTALL.md)** | 🚀 **[Latest Release](https://github.com/arielk3998/unicorn-hunter-pro/releases/latest)**
+
 ## Quick Start (Desktop GUI)
 
 Run the graphical client (no browser required):
