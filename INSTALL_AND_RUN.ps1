@@ -128,9 +128,10 @@ function New-AppShortcut {
     $shell = New-Object -ComObject WScript.Shell
     $shortcut = $shell.CreateShortcut($Path)
     $shortcut.TargetPath = "powershell.exe"
-    $shortcut.Arguments = "-ExecutionPolicy Bypass -WindowStyle Hidden -File `"$(Join-Path $repoRoot 'RUN.ps1')`""
+    $shortcut.Arguments = "-ExecutionPolicy Bypass -WindowStyle Hidden -File `"$(Join-Path $repoRoot 'UnicornHunter.ps1')`""
     $shortcut.WorkingDirectory = $WorkingDir
     $shortcut.Description = "Unicorn Hunter Pro - AI Job Application Tracker"
+    if (-not $IconPath) { $IconPath = (Join-Path $repoRoot 'assets/unicorn.ico') }
     if ($IconPath -and (Test-Path $IconPath)) {
         $shortcut.IconLocation = $IconPath
     }

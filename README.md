@@ -18,7 +18,7 @@ AI-powered job application tracker with resume optimization, ATS analysis, intel
 
 ## 🚀 Launch Now (If You Have the Source Code)
 
-**Easiest way** - Just double-click one of these files:
+**Easiest way** - Double-click one of these files:
 
 1. **First time**: Double-click `INSTALL_AND_RUN.ps1`
    - Installs everything automatically
@@ -28,7 +28,7 @@ AI-powered job application tracker with resume optimization, ATS analysis, intel
 2. **Every time after**: Double-click the Desktop shortcut "Unicorn Hunter"
 
 **Alternative launch methods**:
-- Double-click `RUN.ps1` (PowerShell)
+- Double-click `UnicornHunter.ps1` (PowerShell)
 - Double-click `RUN.bat` (Command Prompt)
 - Start Menu → Search "Unicorn Hunter"
 

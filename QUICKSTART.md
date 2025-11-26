@@ -17,9 +17,9 @@
 
 ### Every Time After That
 
-**Just double-click the Desktop shortcut!** or:
+**Double-click the Desktop shortcut!** or:
 - Click Start Menu → Unicorn Hunter
-- Double-click `RUN.ps1` or `RUN.bat`
+- Double-click `UnicornHunter.ps1` or `RUN.bat`
 
 ---
 
@@ -93,7 +93,7 @@ D:\Master Folder\Ariel's\Personal Documents\Career\Ariels-Resumes\resume-toolkit
 
 **Launch Files** (any of these work):
 - `INSTALL_AND_RUN.ps1` - First time setup + launch
-- `RUN.ps1` - Quick launch (PowerShell)
+- `UnicornHunter.ps1` - Quick launch (PowerShell, proper name)
 - `RUN.bat` - Quick launch (Command Prompt)
 - Desktop shortcut - After installation
 
