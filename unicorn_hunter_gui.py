@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
 The Unicorn Hunter - Desktop Application
 A beautiful GUI for hunting your dream job with AI-powered matching
